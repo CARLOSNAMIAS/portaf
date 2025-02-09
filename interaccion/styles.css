@@ -82,7 +82,7 @@ body.modal-open {
     background-color: rgb(13, 6, 31);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0px 4px 10px rgba(49, 216, 7, 0.365);
+    box-shadow: 0px 4px 10px rgba(81, 230, 44, 0.413);
     z-index: 1000;
 
     /* Inicialmente oculto */

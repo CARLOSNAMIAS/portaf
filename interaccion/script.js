@@ -1,4 +1,4 @@
-const apiKey = "3a9bcf8c1b425f638c10e17f55ff9607"; // Reemplaza con tu API Key
+const apiKey = "db602d829b90280d24129b8db657a96c"; // Reemplaza con tu API Key
 const newsApiKey = "5731e3b25f2146619ba5d1ded36c10d4"; // API Key de noticias
 const modal = document.getElementById('chatbotModal');
 const messageInput = document.getElementById('message');

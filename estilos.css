@@ -38,7 +38,7 @@ body::before {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #13121200;
+    background-color: #201f1f00;
     padding-top: 25px;
     color: #e0e0e0;
 }
@@ -89,6 +89,7 @@ body::before {
 
 #projects {
     background-color: #0f0f0f00;
+
 }
 
 #contact {
@@ -104,6 +105,8 @@ body::before {
     transition: transform 0.3s;
     font: 0.8em sans-serif;
     text-align: justify;
+    
+    
    
 }
 
@@ -127,15 +130,18 @@ body::before {
 
 .card:hover {
     transform: scale(1.05);
+    
 }
 
 .card-img-top {
     transition: transform 0.3s, filter 0.3s;
+    
 }
 
 .card-img-top:hover {
     transform: scale(1.05);
     filter: brightness(0.8);
+   
 
 }
 
@@ -148,12 +154,12 @@ body::before {
 /* Botones */
 /* ==================== */
 .btn-primary {
-    background-color: #2b0187fa;
+    background-color: #4604d4fa;
     border-color: #000000;
 }
 
 .btn-primary:hover {
-    background-color: #197904;
+    background-color: #33c113;
     border-color: #000000;
 }
 
