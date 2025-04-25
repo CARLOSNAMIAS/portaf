@@ -22,14 +22,12 @@ Página del clima con detección de ubicación, pronóstico de 5 días, y diseñ
 ### 🧑‍🏫 SENA Connect (En desarrollo)
 Red social de aprendizaje y colaboración para aprendices, instructores y empresas.
 
-### 🍔 Quiosco Virtual de Comida Rápida
-Prototipo de sistema tipo McDonald's para hacer pedidos desde una pantalla táctil.
+
 
 ## 📫 Contáctame
 
-- 📧 Email: tuemail@example.com  
-- 💼 LinkedIn: [TuPerfilLinkedIn](https://www.linkedin.com/in/tuusuario)
-- 🧑‍💻 GitHub: [github.com/tuusuario](https://github.com/tuusuario)
+- 📧 Email: 
+- 💼 LinkedIn
 
 ---
 
