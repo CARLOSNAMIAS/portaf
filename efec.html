@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correo Volador</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      background: #e0f7fa;
+      position: relative;
+    }
+
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      background: #ff6f00;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+    }
+
+    .flying-mail {
+      position: absolute;
+      width: 80px;
+      bottom: 80px;
+      animation: fly 3s linear forwards;
+      z-index: 1;
+    }
+
+    @keyframes fly {
+      0% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(500px) translateY(-500px) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<button id="sendMail">Enviar Correo</button>
+
+<script>
+  document.getElementById('sendMail').addEventListener('click', () => {
+    const mail = document.createElement('img');
+    mail.src = 'https://cdn-icons-png.flaticon.com/512/561/561127.png'; // Icono de correo (puedes cambiarlo)
+    mail.className = 'flying-mail';
+    document.body.appendChild(mail);
+
+    // Quitar la imagen después de la animación
+    setTimeout(() => {
+      mail.remove();
+    }, 3000);
+  });
+</script>
+
+</body>
+</html>
