@@ -3,19 +3,19 @@
     "development"
   ],
   "hints": {
-    "compat-api/html": [
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ],
+    "compat-api/css": [
       "default",
       {
         "ignore": [
-          "meta[name=theme-color]"
+          "backdrop-filter"
         ]
       }
     ]
-  },
-  "browserslist": [
-    "defaults",
-    "not ie 11",
-    "not ios_saf <= 17.5",
-    "not safari <= 17.5"
-  ]
+  }
 }
